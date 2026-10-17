@@ -1,0 +1,80 @@
+
+        <html>
+        <head>
+            <meta charset="utf-8">
+            <style>
+                body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; color: #333; margin: 20px; }
+                .container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+                h1 { color: #2c3e50; text-align: center; border-bottom: 2px solid #ecf0f1; padding-bottom: 10px; }
+                h2 { color: #16a085; border-bottom: 1px solid #eee; padding-bottom: 5px; margin-top: 30px; }
+                .card { background: #fdfefe; border: 1px solid #e5e8e8; border-radius: 8px; padding: 20px; margin-bottom: 15px; }
+                .badge { display: inline-block; padding: 6px 12px; font-weight: bold; border-radius: 20px; color: white; background-color: #2ecc71; }
+                table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+                th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+                th { background-color: #f2f2f2; color: #2c3e50; }
+                .section-title { font-weight: bold; color: #2c3e50; margin-top: 15px; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>AgriClaim-XAI Assessment Report</h1>
+                <p style="text-align: center; color: #7f8c8d;">Generated on 2026-09-10</p>
+                
+                <h2>Farmer Report Summary</h2>
+                <div class="card">
+                    <p><strong>Crop Type:</strong> Cotton</p>
+                    <p><strong>Crop Status:</strong> Affected by Pest Infestation</p>
+                    <p><strong>Damage Severity Level:</strong> Severe</p>
+                    <p><strong>Estimated Yield Loss:</strong> 33.4%</p>
+                    <p><strong>Insurance Decision:</strong> <span class="badge">Eligible for Payout</span></p>
+                    <p><strong>Compensation Grade:</strong> Moderate Compensation</p>
+                    <p><strong>Action Required:</strong> <span style="color: #e67e22; font-weight: bold;">None. Your claim has been pre-approved. Compensation will be processed automatically.</span></p>
+                </div>
+                
+                <h2>Insurance Officer Analytical Report</h2>
+                <div class="card">
+                    <p><strong>Report Reference:</strong> ACX-1788980074</p>
+                    <p><strong>Location Coordinates:</strong> 17.3850, 78.4867</p>
+                    <p><strong>Growth Stage:</strong> Vegetative</p>
+                    <p><strong>Season:</strong> Summer</p>
+                    
+                    <h3 class="section-title">Evidence Summaries</h3>
+                    <table>
+                        <tr><th>Dimension</th><th>Details</th><th>Metric / Score</th></tr>
+                        <tr>
+                            <td><strong>Visual Evidence</strong></td>
+                            <td>Detected: Pest Infestation</td>
+                            <td>Confidence: 93.88%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Context Evidence</strong></td>
+                            <td>Status: Valid Context</td>
+                            <td>CCI: 0.9520</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Severity Evidence</strong></td>
+                            <td>Affected Area: 69.4%</td>
+                            <td>Yield Loss: 33.4%</td>
+                        </tr>
+                    </table>
+
+                    <h3 class="section-title">Fusion Reasoning</h3>
+                    <p><strong>Claim Reasoning Score (CRS):</strong> 0.8194</p>
+                    <p><strong>Reason Codes:</strong></p>
+                    <ul>
+                        <li>High Visual Confidence</li><li>Context Consistency Above Threshold</li><li>Weather Matches Damage Pattern</li>
+                    </ul>
+                    <p><strong>Top Influential Factors:</strong></p>
+                    <ol>
+                        <li>1 Leaf Discoloration</li><li>2 High Humidity</li><li>3 Crop Growth Stage</li><li>4 High Temperature</li><li>5 Damage Severity</li>
+                    </ol>
+
+                    <h3 class="section-title">Final Decision & Recommendation</h3>
+                    <p><strong>Final Decision:</strong> <span class="badge">Approve</span></p>
+                    <p><strong>Claim Category:</strong> Moderate Compensation</p>
+                    <p><strong>Assessor Instruction:</strong> <em>Trigger automatic payment processing</em></p>
+                </div>
+            </div>
+        </body>
+        </html>
+        

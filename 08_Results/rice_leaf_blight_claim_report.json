@@ -1,0 +1,63 @@
+{
+    "farmer": {
+        "title": "Crop Insurance Claim Report",
+        "date": "2026-09-10",
+        "crop": "Rice",
+        "status": "Affected by Leaf Blight",
+        "severity_level": "Severe",
+        "estimated_yield_loss": "44.3%",
+        "insurance_recommendation": "Ineligible for Payout",
+        "claim_grade": "No Compensation",
+        "action_required": "Appeal Claim. If you believe this is incorrect, you may request a manual survey at your local agency."
+    },
+    "officer": {
+        "report_metadata": {
+            "report_id": "ACX-1788979516",
+            "generated_at": "2026-09-10T00:15:16.638602",
+            "gps_coordinates": "17.3850, 78.4867",
+            "season": "Monsoon",
+            "crop_growth_stage": "Vegetative"
+        },
+        "evidence_summaries": {
+            "visual_evidence_summary": {
+                "disease_classification": "Leaf Blight",
+                "confidence_score": "93.24%",
+                "visual_features_status": "Abnormal Lesions Detected"
+            },
+            "context_evidence_summary": {
+                "meteorological_conditions": "Temp: 25.0C, Rain: 50.0mm, Humidity: 70.0%",
+                "consistency_check_status": "Mismatched Context Profile",
+                "context_consistency_index": "0.0500"
+            },
+            "severity_evidence_summary": {
+                "affected_area_percentage": "66.4%",
+                "crop_vulnerability_index": "0.75",
+                "estimated_yield_loss_percentage": "44.3%"
+            }
+        },
+        "analytical_fusion_metrics": {
+            "claim_reasoning_score": "0.4710",
+            "reason_codes": [
+                "Low Multimodal Evidence Score",
+                "Environmental Context Inconsistent"
+            ],
+            "weights_applied": {
+                "alpha": 0.3,
+                "beta": 0.4,
+                "gamma": 0.3
+            },
+            "top_5_decision_influencers": [
+                "1 High Humidity",
+                "2 Heavy Rainfall",
+                "3 Leaf Discoloration",
+                "4 Crop Growth Stage",
+                "5 Damage Severity"
+            ]
+        },
+        "final_recommendation": {
+            "decision": "Reject",
+            "claim_category": "No Compensation",
+            "assessor_instruction": "Reject claim file immediately"
+        }
+    }
+}

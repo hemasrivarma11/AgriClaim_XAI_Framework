@@ -1,0 +1,64 @@
+{
+    "farmer": {
+        "title": "Crop Insurance Claim Report",
+        "date": "2026-09-10",
+        "crop": "Cotton",
+        "status": "Affected by Pest Infestation",
+        "severity_level": "Severe",
+        "estimated_yield_loss": "33.4%",
+        "insurance_recommendation": "Eligible for Payout",
+        "claim_grade": "Moderate Compensation",
+        "action_required": "None. Your claim has been pre-approved. Compensation will be processed automatically."
+    },
+    "officer": {
+        "report_metadata": {
+            "report_id": "ACX-1788980074",
+            "generated_at": "2026-09-10T00:24:34.986761",
+            "gps_coordinates": "17.3850, 78.4867",
+            "season": "Summer",
+            "crop_growth_stage": "Vegetative"
+        },
+        "evidence_summaries": {
+            "visual_evidence_summary": {
+                "disease_classification": "Pest Infestation",
+                "confidence_score": "93.88%",
+                "visual_features_status": "Abnormal Lesions Detected"
+            },
+            "context_evidence_summary": {
+                "meteorological_conditions": "Temp: 25.0C, Rain: 50.0mm, Humidity: 70.0%",
+                "consistency_check_status": "Valid Context",
+                "context_consistency_index": "0.9520"
+            },
+            "severity_evidence_summary": {
+                "affected_area_percentage": "69.4%",
+                "crop_vulnerability_index": "0.65",
+                "estimated_yield_loss_percentage": "33.4%"
+            }
+        },
+        "analytical_fusion_metrics": {
+            "claim_reasoning_score": "0.8194",
+            "reason_codes": [
+                "High Visual Confidence",
+                "Context Consistency Above Threshold",
+                "Weather Matches Damage Pattern"
+            ],
+            "weights_applied": {
+                "alpha": 0.5,
+                "beta": 0.2,
+                "gamma": 0.3
+            },
+            "top_5_decision_influencers": [
+                "1 Leaf Discoloration",
+                "2 High Humidity",
+                "3 Crop Growth Stage",
+                "4 High Temperature",
+                "5 Damage Severity"
+            ]
+        },
+        "final_recommendation": {
+            "decision": "Approve",
+            "claim_category": "Moderate Compensation",
+            "assessor_instruction": "Trigger automatic payment processing"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "farmer": {
+        "title": "Crop Insurance Claim Report",
+        "date": "2026-09-10",
+        "crop": "Rice",
+        "status": "Healthy Crop",
+        "severity_level": "Healthy",
+        "estimated_yield_loss": "0.0%",
+        "insurance_recommendation": "Ineligible for Payout",
+        "claim_grade": "No Compensation",
+        "action_required": "No action required. Your crop is healthy."
+    },
+    "officer": {
+        "report_metadata": {
+            "report_id": "ACX-1788980116",
+            "generated_at": "2026-09-10T00:25:16.353097",
+            "gps_coordinates": "17.3850, 78.4867",
+            "season": "Summer",
+            "crop_growth_stage": "Vegetative"
+        },
+        "evidence_summaries": {
+            "visual_evidence_summary": {
+                "disease_classification": "Healthy",
+                "confidence_score": "98.50%",
+                "visual_features_status": "Pristine Foliage Structures"
+            },
+            "context_evidence_summary": {
+                "meteorological_conditions": "Temp: 25.0C, Rain: 50.0mm, Humidity: 70.0%",
+                "consistency_check_status": "Valid Context",
+                "context_consistency_index": "0.9200"
+            },
+            "severity_evidence_summary": {
+                "affected_area_percentage": "0.0%",
+                "crop_vulnerability_index": "0.75",
+                "estimated_yield_loss_percentage": "0.0%"
+            }
+        },
+        "analytical_fusion_metrics": {
+            "claim_reasoning_score": "0.3680",
+            "reason_codes": [
+                "Zero Visual Damage: Crop classified as Healthy"
+            ],
+            "weights_applied": {
+                "alpha": 0.3,
+                "beta": 0.4,
+                "gamma": 0.3
+            },
+            "top_5_decision_influencers": [
+                "1 High Humidity",
+                "2 High Temperature",
+                "3 Crop Growth Stage",
+                "4 Leaf Structural Integrity",
+                "5 Damage Severity"
+            ]
+        },
+        "final_recommendation": {
+            "decision": "Reject",
+            "claim_category": "No Compensation",
+            "assessor_instruction": "Reject claim file immediately"
+        }
+    }
+}

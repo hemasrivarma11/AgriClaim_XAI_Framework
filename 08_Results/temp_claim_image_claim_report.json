@@ -1,0 +1,62 @@
+{
+    "farmer": {
+        "title": "Crop Insurance Claim Report",
+        "date": "2026-09-10",
+        "crop": "Rice",
+        "status": "Affected by Leaf Rust",
+        "severity_level": "Mild",
+        "estimated_yield_loss": "12.3%",
+        "insurance_recommendation": "Pending Verification",
+        "claim_grade": "Pending Assessment",
+        "action_required": "Assessor Visit Required. An insurance officer will visit your field within 7 days to verify conditions."
+    },
+    "officer": {
+        "report_metadata": {
+            "report_id": "ACX-1788980201",
+            "generated_at": "2026-09-10T00:26:41.967051",
+            "gps_coordinates": "17.3850, 78.4867",
+            "season": "Summer",
+            "crop_growth_stage": "Vegetative"
+        },
+        "evidence_summaries": {
+            "visual_evidence_summary": {
+                "disease_classification": "Leaf Rust",
+                "confidence_score": "90.41%",
+                "visual_features_status": "Abnormal Lesions Detected"
+            },
+            "context_evidence_summary": {
+                "meteorological_conditions": "Temp: 25.0C, Rain: 50.0mm, Humidity: 70.0%",
+                "consistency_check_status": "Valid Context",
+                "context_consistency_index": "0.8040"
+            },
+            "severity_evidence_summary": {
+                "affected_area_percentage": "36.3%",
+                "crop_vulnerability_index": "0.75",
+                "estimated_yield_loss_percentage": "12.3%"
+            }
+        },
+        "analytical_fusion_metrics": {
+            "claim_reasoning_score": "0.6686",
+            "reason_codes": [
+                "Discrepancy In Environmental Metadata"
+            ],
+            "weights_applied": {
+                "alpha": 0.3,
+                "beta": 0.4,
+                "gamma": 0.3
+            },
+            "top_5_decision_influencers": [
+                "1 High Humidity",
+                "2 Leaf Discoloration",
+                "3 Crop Growth Stage",
+                "4 High Temperature",
+                "5 Damage Severity"
+            ]
+        },
+        "final_recommendation": {
+            "decision": "Manual Review",
+            "claim_category": "Pending Assessment",
+            "assessor_instruction": "Schedule prompt physical field inspection"
+        }
+    }
+}

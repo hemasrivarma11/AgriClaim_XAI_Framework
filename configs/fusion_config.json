@@ -1,0 +1,37 @@
+{
+    "rice": {
+        "alpha": 0.3,
+        "beta": 0.4,
+        "gamma": 0.3
+    },
+    "cotton": {
+        "alpha": 0.5,
+        "beta": 0.2,
+        "gamma": 0.3
+    },
+    "wheat": {
+        "alpha": 0.3,
+        "beta": 0.2,
+        "gamma": 0.5
+    },
+    "maize": {
+        "alpha": 0.4,
+        "beta": 0.25,
+        "gamma": 0.35
+    },
+    "soybean": {
+        "alpha": 0.35,
+        "beta": 0.3,
+        "gamma": 0.35
+    },
+    "sugarcane": {
+        "alpha": 0.35,
+        "beta": 0.35,
+        "gamma": 0.3
+    },
+    "default": {
+        "alpha": 0.4,
+        "beta": 0.3,
+        "gamma": 0.3
+    }
+}

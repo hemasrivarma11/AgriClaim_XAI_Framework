@@ -1,0 +1,8 @@
+
+================================================================================
+                        AgriClaim-XAI Results Discussion
+================================================================================
+
+1. Performance Superiority:
+AgriClaim-XAI achieved the highest classification Accuracy (0.990)
+on the combined PlantVillage + PlantDoc dataset, outperforming baseline models under identical training conditions.
